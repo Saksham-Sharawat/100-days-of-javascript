@@ -1,5 +1,8 @@
-let a = 10;
-let b = 5;
+var a = "This is var variable";
+let b = "This is let variable";
+const c = "This is const variable"
 
-console.log("a =", a, "b =", b);
-console.log("a+b =", a+b);
+console.log("Type of variables");
+console.log("a =", a);
+console.log("b =", b);
+console.log("c =", c);
