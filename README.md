@@ -26,7 +26,7 @@ Each day's progress is organized into its own dedicated folder. Inside each fold
 Here is a log of my journey so far:
 
 * [Day 1 - Variables](./Day%201%20-%20Variables/): Intro to variables.
-* [Day 2 - P rimitive data types](./Day%202%20-%20Data%20types/): Exploring primitive data types.
+* [Day 2 - Primitive data types](./Day%202%20-%20Data%20types/): Exploring primitive data types.
 * [Day 3 - Operators](./Day%203%20-%20Operators/): Arithmetic, unary, assignment, comparison, and logical operators.
 * [Day 4 - Scope(Global and block)](./Day%204%20-%20Scope(Global%20and%20block)/): Understanding global and block scope.
 
