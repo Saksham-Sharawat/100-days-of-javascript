@@ -30,6 +30,7 @@ Here is a log of my journey so far:
 * [Day 3 - Operators](./Day%203%20-%20Operators/): Arithmetic, unary, assignment, comparison, and logical operators.
 * [Day 4 - Scope(Global and block)](./Day%204%20-%20Scope(Global%20and%20block)/): Understanding global and block scope.
 * [Day 5 - Reference data type](./Day%205%20-%20Reference%20data%20type/): Understanding reference data types.
+* [Day 6 - Authorization system](./Day%206%20-%20Authorization%20system/): Built a login authorization system using ternary, logical AND (`&&`), and nullish coalescing (`??`) operators.
 
 ## 💻 How to Run the Code
 
