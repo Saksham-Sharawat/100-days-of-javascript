@@ -7,7 +7,7 @@ let password = "123456789";
 
 // Login check
 
-let loginStatus = username === "Saksham" && password === "123456789" ? "Logn successful✅" : "Incorrect username or password❌";
+let loginStatus = username === "Saksham" && password === "123456789" ? "Login successful✅" : "Incorrect username or password❌";
 
 console.log("Username :", username);
 console.log("Password :", password);
