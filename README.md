@@ -32,6 +32,7 @@ Here is a log of my journey so far:
 * [Day 5 - Reference data type](./Day%205%20-%20Reference%20data%20type/): Understanding reference data types.
 * [Day 6 - Authorization system](./Day%206%20-%20Authorization%20system/): Built a login authorization system.
 * [Day 7 - Bank system](./Day%207%20-%20Bank%20system/): Built an interactive bank system.
+* [Day 8 - Password Checker](./Day%208/): Built a password checker using `while` loops and `prompt()`.
 
 ## 💻 How to Run the Code
 
