@@ -33,6 +33,7 @@ Here is a log of my journey so far:
 * [Day 6 - Authorization system](./Day%206%20-%20Authorization%20system/): Built a login authorization system.
 * [Day 7 - Bank system](./Day%207%20-%20Bank%20system/): Built an interactive bank system.
 * [Day 8 - Password Checker](./Day%208/): Built a password checker using `while` loops and `prompt()`.
+* [Day 9 - Number Guessing Game](./Day%209%20-%20Number%20guessing%20game/): Built a number guessing game using `do...while` loop.
 
 ## 💻 How to Run the Code
 
