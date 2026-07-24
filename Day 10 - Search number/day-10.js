@@ -15,6 +15,8 @@ let numbers = [
 let target = Number(prompt("Enter a number(1-9)"));
 let match = false;
 
+// search logic
+
 search:
 for (let a=0; a<numbers.length; a++) {
 
