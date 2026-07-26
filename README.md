@@ -35,6 +35,7 @@ Here is a log of my journey so far:
 * [Day 8 - Password Checker](./Day%208/): Built a password checker using `while` loops and `prompt()`.
 * [Day 9 - Number Guessing Game](./Day%209%20-%20Number%20guessing%20game/): Built a number guessing game using `do...while` loop.
 * [Day 10 - Search Number](./Day%2010%20-%20Search%20number/): Search a number in a 2D matrix using nested loops & labeled `break`.
+* [Day 11 - Bill Calculator](./Day%2011%20-%20Bill%20calculator/): Built a bill calculator using rest parameters (`...prices`) and default parameters (`tax = 18`).
 
 ## 💻 How to Run the Code
 
