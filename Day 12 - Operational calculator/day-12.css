@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right,rgb(255, 255, 255) 0% 1%, rgb(122, 59, 198) 50% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 2rem;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 70vw;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
