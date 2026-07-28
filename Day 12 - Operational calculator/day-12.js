@@ -1,6 +1,6 @@
 // Operational calculator
 
-console.log("Operational calculator");
+console.log("==== Operational calculator ====");
 
 // calculation function 
 
@@ -26,7 +26,7 @@ function calculator(operation, num1, num2) {
     return operation(num1, num2);
 }
 
-let userOperation = prompt("Enter the operation");
+let userOperation = prompt("Enter the operation (add,subtract,multiply,divide)");
 let firstNum = Number(prompt("Enter the first number"));
 let secondNum = Number(prompt("Enter the second number"));
 
@@ -53,7 +53,14 @@ switch (userOperation) {
     console.log("Invalid operation");
 }
 
+console.log("\nOperation :", userOperation);
+console.log("First number :", firstNum);
+console.log("Second number :", secondNum);
+
 if (operation) {
     let result = calculator(operation, firstNum, secondNum);
-    console.log(result);
+    console.log("\nResult :", result);
 }
+
+console.log("\nThanks for using😊")
+console.log("Reload the page to use again🔄️")
