@@ -1,3 +1,6 @@
+// Student result system
+
+console.log("===== Student result system =====");
 
 function passStudent (name) {
     console.log(name, "passed.");
@@ -13,9 +16,20 @@ function distinctionStudent (name) {
 
 function processResult (name, marks, callback) {
     callback(name);
-
-    if (marks>=90 && marks<=100) {
-        
-    }
-        
 }
+
+let studentName = prompt("Enter student's name");
+let studentMarks = Number(prompt("Enter the marks of the student"));
+let callback;
+
+if (studentMarks>=90 && studentMarks<=100) {
+    callback = distinctionStudent;
+} else if (studentMarks>=40 && studentMarks<90) {
+    callback = passStudent;
+} else if (studentMarks>=0 && studentMarks<40) {
+    callback = failStudent;
+} else {
+    console.log("❌Wrong marks");
+}
+
+processResult(studentName, studentMarks, callback);
