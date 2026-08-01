@@ -32,4 +32,15 @@ if (studentMarks>=90 && studentMarks<=100) {
     console.log("❌Wrong marks");
 }
 
+console.log("\nHere is the result")
+console.log("\nStudent name :", studentName);
+console.log("Student marks :", studentMarks);
 processResult(studentName, studentMarks, callback);
+
+if (callback == distinctionStudent) {
+    console.log("\n✅Well done");
+} else if (callback == passStudent) {
+    console.log("\n👍keep it up");
+} else {
+    console.log("\n🙂 Work hard")
+};
