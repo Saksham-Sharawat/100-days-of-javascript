@@ -38,6 +38,7 @@ Here is a log of my journey so far:
 * [Day 11 - Bill Calculator](./Day%2011%20-%20Bill%20calculator/): Built a bill calculator using rest parameters (`...prices`) and default parameters (`tax = 18`).
 * [Day 12 - Operational Calculator](./Day%2012%20-%20Operational%20calculator/): Built an operational calculator using **first-class function**
 * [Day 13 - Student Result System](./Day%2013%20-%20Student%20result%20system/): Built a student result system using **callback functions**
+* [Day 14 - Reverse String](./Day%2014%20-%20Reverse%20string/): Built a reverse string program using **recursion**
 
 ## 💻 How to Run the Code
 
