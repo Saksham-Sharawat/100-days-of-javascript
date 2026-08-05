@@ -1,3 +1,9 @@
+// Reverse string
+
+console.log("===== Reverse string =====");
+
+// logic function
+
 function reverseString (str) {
     if (str === "") return "";
     let nextStep = str.slice(1);
@@ -7,4 +13,12 @@ function reverseString (str) {
     return answer;
 }
 
-console.log(reverseString(prompt("Enter the word")));
+// print the results
+
+let input = prompt("Enter the word");
+
+console.log("\nOriginal string :", input);
+console.log("Reversed string :", reverseString(input));
+
+console.log("\nThank you for using the program!😊");
+console.log("To use it again just reload the page!");
