@@ -46,24 +46,26 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 2px dashed black;
     border-radius: 1em;
-
 }
 
-.inputs {
-    height: 20vh;
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding: 3em;
+.form table td {
+    height: 2em;
+    width: 9em;
 }
-.inputs input {
-    padding: 0.25em;
-    width: 20em;
+
+.form table td input {
+    height: 1.5em;
     border: 1px solid black;
-    border-radius: 0.35em;
+    border-radius: 0.25em;
+    padding-left: 0.25em;
+}
+
+::placeholder {
+    color: rgb(176, 175, 175);
+    font-size: small;
+    
 }
 
 .generate-button {
@@ -74,6 +76,6 @@ main {
     height: 3em;
     width: 12em;
     border: 1px solid black;
-    border-radius: 1em;
+    border-radius: 0.5em;
     background-color: #2196F3;
 }
