@@ -17,3 +17,7 @@ let professionValue = profession.value;
 let collegeValue = college.value;
 let skillsValue = skills.value;
 let careerGoalValue = careerGoal.value;
+
+button.addEventListener("click", function {
+    console.log("Button clicked");
+})

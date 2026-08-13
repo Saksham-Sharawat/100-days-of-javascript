@@ -68,10 +68,6 @@ main {
     
 }
 
-.generate-button {
-    margin: 2em;
-}
-
 .generate-button button {
     height: 3em;
     width: 12em;
