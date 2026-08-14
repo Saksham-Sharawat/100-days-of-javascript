@@ -68,10 +68,12 @@ main {
     
 }
 
-.generate-button button {
+button {
     height: 3em;
-    width: 12em;
-    border: 1px solid black;
-    border-radius: 0.5em;
-    background-color: #2196F3;
+    width: 14em;
+    margin-top: 5em;
+    background-color: rgb(56, 101, 148);
+    color: white;
+    border: 2px solid black;
+    border-radius: 1em;
 }
