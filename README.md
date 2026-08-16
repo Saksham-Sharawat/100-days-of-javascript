@@ -39,6 +39,7 @@ Here is a log of my journey so far:
 * [Day 12 - Operational Calculator](./Day%2012%20-%20Operational%20calculator/): Built an operational calculator using **first-class function**
 * [Day 13 - Student Result System](./Day%2013%20-%20Student%20result%20system/): Built a student result system using **callback functions**
 * [Day 14 - Reverse String](./Day%2014%20-%20Reverse%20string/): Built a reverse string program using **recursion**
+* [Day 15 - Live Resume Builder](./Day%2015%20-%20Live%20resume%20builder/): Built a live resume builder using **DOM manipulation** and input validation.
 
 ## 💻 How to Run the Code
 
