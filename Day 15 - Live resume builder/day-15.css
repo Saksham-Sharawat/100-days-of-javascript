@@ -61,7 +61,8 @@ main {
     height: 2em;
     padding-left: 0.25em;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
     border-radius: 0.25em;
 }
 
@@ -110,4 +111,23 @@ button {
     text-align: center;
     text-decoration: underline;
     font-size: 1.2rem;
+}
+
+.resume-body {
+    height: 85%;
+    padding-top: 2em;
+}
+
+/* error message */
+
+.error-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-msg {
+    color: red;
 }
