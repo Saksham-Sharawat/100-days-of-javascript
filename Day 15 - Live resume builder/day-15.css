@@ -31,7 +31,7 @@ main {
 
 .content {
     height: 100%;
-    width: 100vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,34 +39,41 @@ main {
 }
 
 .form {
-    height: 50vh;
-    width: 50vw;
+    height: 70vh;
+    width: 30vw;
     background-color: #90CAF9;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px dashed black;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
     border-radius: 1em;
 }
 
 .form table td {
-    height: 2em;
+    height: 3em;
     width: 9em;
 }
 
 .form table td input {
-    height: 1.5em;
-    border: 1px solid black;
-    border-radius: 0.25em;
+    height: 2em;
     padding-left: 0.25em;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0.25em;
 }
 
 ::placeholder {
     color: rgb(176, 175, 175);
     font-size: small;
-    
+
 }
+
+/* button */
+
+
 
 button {
     height: 3em;
@@ -76,4 +83,31 @@ button {
     color: white;
     border: 2px solid black;
     border-radius: 1em;
+}
+
+/* resume content */
+
+.resume-content {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume {
+    height: 70vh;
+    width: 27vw;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-radius: 1rem;
+    padding: 1em;
+    font-size: 0.9rem;
+}
+
+.resume-header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2rem;
 }
