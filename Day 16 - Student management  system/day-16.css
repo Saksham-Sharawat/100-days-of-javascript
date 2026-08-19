@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    height: 8em;
+    height: 10em;
     width: 100vw;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .heading-card {
     height: 6em;
-    width: 60em;
+    width: 50em;
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
@@ -33,4 +33,75 @@ body {
     border-radius: 1em;
 }
 
+.heading-text {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
 /* main */
+
+main {
+    height: 80%;
+}
+
+.main-container {
+    height: 100%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10em;
+}
+
+a {
+    height: 100%;
+    width: 22.5%;   
+    margin: 1em;
+    text-decoration: none;
+}
+
+.row1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6em;
+} 
+
+.row2 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6em;
+}
+
+.card {
+    height: 90%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+}
+
+.icon {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.text {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
