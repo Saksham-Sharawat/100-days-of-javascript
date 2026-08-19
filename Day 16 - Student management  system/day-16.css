@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( to bottom right , rgba(0, 0, 255, 0.5) 0% 40%, rgba(128, 0, 128, 0.5) 90% 100%);
+}
+
+.header {
+    height: 8em;
+    width: 100vw;
+}
+
+.header-div {
+    height: 8em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-card {
+    height: 6em;
+    width: 60em;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+}
+
+/* main */
