@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
     background: linear-gradient( to bottom right , rgba(0, 0, 255, 0.5) 0% 40%, rgba(128, 0, 128, 0.5) 90% 100%);
+    overflow: hidden;
 }
 
 /* header */
@@ -57,4 +58,60 @@ header {
 
 .header .page-title i {
     margin-right: 5px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* cards */
+
+/* card 1 */
+
+.card1 {
+    height: 15em;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+
+.display-name {
+    font-size: 2rem;
+    margin: 0.8em;
+}
+
+.image {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    background-image: url(profile-image.jpg);
+    background-size: cover;
 }
