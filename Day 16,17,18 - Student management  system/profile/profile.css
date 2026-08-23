@@ -9,17 +9,16 @@ a {
 }
 
 body {
-    height: 100vh;
     width: 100vw;
     background: linear-gradient( to bottom right , rgba(0, 0, 255, 0.5) 0% 40%, rgba(128, 0, 128, 0.5) 90% 100%);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* header */
 
 header {
     height: 3em;
-    width: 100%;
+    width: 100vw;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -51,7 +50,7 @@ header {
 /* page title */
 
 .header .page-title {
-    margin-right: 1em;
+    margin-right: 2em;
     font-size: large;
     color: white;
 }
@@ -74,7 +73,7 @@ main {
 
 .card1 {
     height: 15em;
-    width: 70%;
+    width: 60%;
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 1em;
@@ -114,4 +113,51 @@ main {
     border-radius: 50%;
     background-image: url(profile-image.jpg);
     background-size: cover;
+}
+
+/* card 2 */
+
+.card2 {
+    height: 15em;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 1em;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2-heading {
+    height: 20%;
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+    
+}
+
+.info {
+    height: 100%;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 table td {
+    width: 150px;
+}
+
+/* card 3 */
+
+.card3 {
+    height: 15em;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    margin: 0.5em 0;
 }
