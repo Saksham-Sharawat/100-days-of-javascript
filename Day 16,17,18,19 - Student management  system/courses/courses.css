@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background: linear-gradient( to bottom right , rgba(0, 0, 255, 0.5) 0% 40%, rgba(128, 0, 128, 0.5) 90% 100%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 3em;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header p {
+    font-size: larger;
+}
+
+main {
+    height: 93vh;
+    width: 100%;
+}
