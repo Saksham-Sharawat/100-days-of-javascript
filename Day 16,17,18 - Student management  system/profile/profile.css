@@ -186,3 +186,39 @@ main {
 .card3 table td {
     width: 150px;
 }
+
+/* card 4 */
+
+.card4 {
+    height: 15em;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 1em;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card4-heading {
+    height: 20%;
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+    
+}
+
+.card4-info {
+    height: 100%;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card4 table td {
+    width: 150px;
+}
