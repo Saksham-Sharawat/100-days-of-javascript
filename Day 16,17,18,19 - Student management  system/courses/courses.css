@@ -14,6 +14,8 @@ a {
     text-decoration: none;
 }
 
+/* header */
+
 header {
     height: 3em;
     width: 100vw;
@@ -35,7 +37,47 @@ header {
     font-size: larger;
 }
 
+/* main */
+
 main {
     height: 93vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* page heading */
+
+.page-heading {
+    font-size: 2rem;
+    color: white;
+    margin: 2em 0;
+    font-weight: 600;
+}
+
+/* course cards */
+
+.card1 {
+    height: 10em;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    box-sizing: border-box;
+    padding: 1em;
+    color: white;
+}
+
+.course-code {
+    height: 1em;
+}
+
+.course-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
 }
