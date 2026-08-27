@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 100vw;
+    background: linear-gradient( to bottom right , rgba(0, 0, 255, 0.5) 0% 40%, rgba(128, 0, 128, 0.5) 90% 100%);
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    height: 3em;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* back button */
+
+.header .back-button {
+    margin-left: 1em;
+    font-size: large;
+    color: white;
+}
+
+.header .back-button p {
+    color: white;
+}
+
+.header .back-button i {
+    margin-right: 5px;
+}
+
+/* page title */
+
+.header .page-title {
+    margin-right: 2em;
+    font-size: large;
+    color: white;
+}
+
+.header .page-title i {
+    margin-right: 5px;
+}
+
+/* main */
+
+main {
+    height: 93vh;
+    width: 100%;
+}
+
+/* page heading */
+
+.page-heading {
+    font-size: 2rem;
+    color: white;
+    margin: 2em 0;
+    font-weight: 600;
+}
