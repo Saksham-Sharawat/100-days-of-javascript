@@ -64,6 +64,10 @@ header {
 main {
     height: 93vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* page heading */
@@ -73,4 +77,20 @@ main {
     color: white;
     margin: 2em 0;
     font-weight: 600;
+}
+
+/* card */
+
+.card1 {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+td {
+    height: 1.5em;
+    min-width: max-content;
 }
