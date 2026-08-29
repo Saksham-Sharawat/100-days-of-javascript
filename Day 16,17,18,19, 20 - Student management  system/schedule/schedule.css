@@ -67,12 +67,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    padding: 3em 0;
 }
 
 /* page heading */
 
 .page-heading {
+    height: 1em;
     font-size: 2rem;
     color: white;
     margin: 2em 0;
@@ -81,16 +83,25 @@ main {
 
 /* card */
 
-.card1 {
+.card {
     width: 60%;
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 1em;
     box-sizing: border-box;
     padding: 1em;
+    margin: 0.5em;
+    color: white;
+
 }
 
 td {
-    height: 1.5em;
-    min-width: max-content;
+    height: 2em;
+    width: 33em;
+    text-align: center;
+}
+
+.day {
+    font-size: larger;
+    text-decoration: underline;
 }
