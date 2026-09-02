@@ -33,3 +33,126 @@ header {
     box-sizing: border-box;
     color: white;
 }
+
+/* main */
+
+main {
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.page-heading {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2em 0;
+}
+
+/* overall result */
+
+.overall-result {
+    height: 10em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0.5em;
+    margin-top: 2em;
+
+}
+
+.top {
+    height: 30%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.lower {
+    height: 70%;
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* marks */
+
+.marks-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0.5em;
+}
+
+td {
+    height: 2em;
+}
+
+thead {
+    height: 2em;
+    font-size: 1.2rem;
+}
+
+thead td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+
+.course {
+    width: 40em;
+    text-align: center;
+}
+
+.code {
+    width: 20em;
+    text-align: center;
+}
+
+.grade {
+    width: 20em;
+    text-align: center;
+}
+
+.marks {
+    width: 20em;
+    text-align: center;
+}
+
+.summary-card {
+    height: 10em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0.5em;
+
+}
+
+.summary-card .content p {
+    line-height: 1.5em;
+    font-size: 1rem;
+}
