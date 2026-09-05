@@ -5,3 +5,4 @@ button.addEventListener ('click' , function () {
 })
 
 let form = document.querySelector('.edit-form');
+form.style.display = "none";
