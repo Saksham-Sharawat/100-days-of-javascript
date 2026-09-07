@@ -1,8 +1,8 @@
 let button = document.querySelector('.edit-button');
+let form = document.querySelector('.edit-form');
+
+form.style.display = "none";
 
 button.addEventListener ('click' , function () {
-    console.log ("Edit button clicked");
+    form.style.display = "flex";
 })
-
-let form = document.querySelector('.edit-form');
-form.style.display = "none";
