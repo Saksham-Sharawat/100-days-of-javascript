@@ -13,13 +13,26 @@ let name_input = document.querySelector('#name');
 let display_name = document.querySelector('.display-name');
 let display_name_table = document.querySelector('.display-name-table');
 
+// roll number
+
+let roll_input = document.querySelector('#roll-no');
+let display_roll = document.querySelector('.display-roll-no');
+
 form.addEventListener('submit' , function (event) {
 
     event.preventDefault();
 
+    // name
+
     let new_name = name_input.value;
-    
     display_name.innerHTML = new_name;
     display_name_table.innerHTML = new_name;
+
+    // roll number
+
+    let new_roll_no = roll_input.value;
+    display_roll.innerHTML = new_roll_no;
+
+
 
 })
