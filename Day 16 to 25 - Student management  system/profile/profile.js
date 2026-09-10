@@ -25,6 +25,27 @@ let display_roll = document.querySelector('.display-roll-no');
 let email_input = document.querySelector('#email');
 let display_email = document.querySelector('.email');
 
+// phone number
+
+let phone_no_input = document.querySelector('#phone');
+
+// date of birth
+
+let DOB_input = document.querySelector('#dob');
+
+// program
+
+let program_input = document.querySelector('#program');
+
+// department
+
+let department_input = document.querySelector('#department');
+
+//semester
+
+let semester_input = document.querySelector('semester');
+
+
 form.addEventListener('submit' , function (event) {
 
     event.preventDefault();
