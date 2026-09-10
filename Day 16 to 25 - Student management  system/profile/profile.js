@@ -1,10 +1,12 @@
 let button = document.querySelector('.edit-button');
 let form = document.querySelector('.edit-form');
+let display = document.querySelector('.display');
 
 form.style.display = "none";
 
 button.addEventListener ('click' , function () {
     form.style.display = "flex";
+    display.style.display="none";
 })
 
 // name
@@ -21,6 +23,8 @@ let display_roll = document.querySelector('.display-roll-no');
 form.addEventListener('submit' , function (event) {
 
     event.preventDefault();
+    form.style.display = "none";
+    display.style.display= "flex";
 
     // name
 

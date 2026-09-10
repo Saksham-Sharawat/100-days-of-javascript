@@ -67,6 +67,14 @@ main {
     justify-content: center;
 }
 
+.display{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* cards */
 
 /* card 1 */
@@ -250,11 +258,25 @@ main {
 }
 
 .edit-form {
-    display: flex;
+    min-height: 80vh;
+    margin: 3em auto;
+    display: none;
     flex-direction: column;
+    justify-content: center;
+    gap: 1em;
 }
 
 .form-group {
     display: flex;
     align-items: center;
+    gap: 2em;
+}
+
+.form-group label {
+    width: 150px;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 0.7em;
 }
