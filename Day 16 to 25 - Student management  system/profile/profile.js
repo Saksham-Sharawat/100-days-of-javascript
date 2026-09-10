@@ -20,6 +20,11 @@ let display_name_table = document.querySelector('.display-name-table');
 let roll_input = document.querySelector('#roll-no');
 let display_roll = document.querySelector('.display-roll-no');
 
+// email
+
+let email_input = document.querySelector('#email');
+let display_email = document.querySelector('.email');
+
 form.addEventListener('submit' , function (event) {
 
     event.preventDefault();
@@ -37,6 +42,9 @@ form.addEventListener('submit' , function (event) {
     let new_roll_no = roll_input.value;
     display_roll.innerHTML = new_roll_no;
 
+    // email
 
+    let new_email = email_input.value;
+    display_email.innerHTML = new_email;
 
 })
