@@ -249,6 +249,8 @@ main {
     transform: scale(0.95);
 }
 
+/* card */
+
 .card {
     transition: transform 0.2s ease;
 }
@@ -256,6 +258,8 @@ main {
 .card:hover {
     transform: scale(1.01);
 }
+
+/* form */
 
 .edit-form {
     min-height: 80vh;
