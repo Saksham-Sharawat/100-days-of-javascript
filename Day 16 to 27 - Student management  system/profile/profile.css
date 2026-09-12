@@ -243,6 +243,7 @@ main {
     border-radius: 1em;
     color: white;
     transition: transform 0.1s ease;
+    cursor: pointer;
 }
 
 .edit-button:active {
@@ -308,5 +309,5 @@ main {
     border-radius: 1em;
     color: white;
     align-self: center;
-    
+    cursor: pointer;
 }
